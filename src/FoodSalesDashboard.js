@@ -5,7 +5,6 @@ import {
 } from 'recharts';
 import * as XLSX from 'xlsx';
 import ExcelJS from 'exceljs';
-import _ from 'lodash';
 
 const FoodSalesDashboard = () => {
   const [loading, setLoading] = useState(true);
